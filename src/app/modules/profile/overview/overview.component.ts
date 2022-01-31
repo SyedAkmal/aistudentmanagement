@@ -4,7 +4,7 @@ import {FormControl} from '@angular/forms';
 @Component({
   selector: 'app-overview',
   templateUrl: './overview.component.html',
-  styleUrls: ['./overview.component.scss']
+  //styleUrls: ['./overview.component.scss']
 })
 export class OverviewComponent {
   toppings = new FormControl();

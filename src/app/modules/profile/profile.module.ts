@@ -22,6 +22,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import {MatTableModule} from '@angular/material/table';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import {MatTableModule} from '@angular/material/table';
     ReactiveFormsModule,
     MatButtonModule,
     MatListModule,
-    MatTableModule
+    MatTableModule,
+    MatIconModule
   
 
   ],
